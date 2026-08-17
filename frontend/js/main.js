@@ -304,7 +304,7 @@ function appendMessage(text, sender) {
 
 async function sendMessage(message) {
   try {
-    const res = await fetch(`${API_BASE_URL}/api/chat`, {
+    const res = await fetch(`${API_BASE_URL}/chat`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message }),
