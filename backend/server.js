@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.post("/chat", (req, res) => {
+app.post("/api/chat", (req, res) => {
   const { message } = req.body || {};
 
   if (typeof message !== "string") {
@@ -21,7 +21,7 @@ app.post("/chat", (req, res) => {
   res.json({ reply });
 });
 
-app.get("/health", (req, res) => {
+app.get("/api/health", (req, res) => {
   res.json({ status: "ok" });
 });
 
