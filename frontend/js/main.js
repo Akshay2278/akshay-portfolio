@@ -2,7 +2,7 @@
 // If the frontend is served by the backend (npm start in /backend), same-origin
 // works and this can stay empty. If you host the frontend separately (e.g. a
 // static host), set this to your backend's full URL, e.g. "https://your-api.com".
-const API_BASE_URL = "";
+const API_BASE_URL = "https://akshay-portfolio-api.vercel.app";
 
 // ============ Preloader ============
 const preloader = document.getElementById("preloader");
