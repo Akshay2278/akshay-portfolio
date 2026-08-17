@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Akshay — Network Engineering · Software · QA</title>
+<meta name="description" content="Akshay's portfolio — CS undergrad building toward network engineering, software development, and QA testing." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;900&family=Archivo+Narrow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== Preloader ===== -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-count mono" id="preloaderCount">00</div>
+      <div class="preloader-label mono">AKSHAY / PORTFOLIO</div>
+      <div class="preloader-bar"><div class="preloader-bar-fill" id="preloaderBarFill"></div></div>
+    </div>
+  </div>
+
+  <!-- ===== Nav ===== -->
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-brand">akshay<span class="dot">.</span></a>
+      <nav class="nav-links">
+        <a href="#about">about</a>
+        <a href="#skills">skills</a>
+        <a href="#experience">internship</a>
+        <a href="#education">education</a>
+        <a href="#projects">projects</a>
+        <a href="#resume">resume</a>
+        <a href="#contact">contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== Hero: Swiss grid ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-meta mono">
+      <span>A</span><span>AKSHAY K / PORTFOLIO</span><span>01</span>
+    </div>
+    <div class="hero-layout">
+      <div class="hero-inner">
+        <h1 class="hero-title">NETWORK<br>ENGINEER<br><span class="hero-title-accent">IN PROGRESS</span></h1>
+        <p class="hero-sub">
+          Aspiring Network Engineer — CCNA (200-301) certification in progress, systems
+          &amp; infrastructure enthusiast. Focused on routing, switching, VLANs, and IP
+          services in lab-based environments, using Cisco Packet Tracer, GNS3, and
+          Wireshark to build topologies and validate configuration changes.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">See the work</a>
+          <a href="#chat" class="btn btn-ghost">Ask my assistant</a>
+        </div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-card-inner" id="heroPhotoCard" data-photo-src="assets/led.png">
+          <!-- Real photo is loaded from assets/led.png (see data-photo-src above). -->
+          <!-- The shatter effect automatically finds and slices it. -->
+          <div class="piece-grid" id="heroPieceGrid"></div>
+          <svg class="crack-svg" id="heroCracks" viewBox="0 0 100 100" preserveAspectRatio="none"></svg>
+          <div class="shine-overlay" id="heroShineOverlay"></div>
+          <div class="photo-card-tag">Akshay K</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-rule"></div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section class="section" id="about">
+    <div class="section-inner fade-target">
+      <p class="eyebrow mono">01 · about</p>
+      <h2 class="section-title">Building toward CCNA</h2>
+      <p class="section-lead">
+        Network Engineer focused on routing, switching, VLANs, and IP services in
+        lab-based environments. I use Cisco Packet Tracer, GNS3, and Wireshark to
+        build topologies, trace traffic, and validate configuration changes with a
+        structured troubleshooting approach — bringing Java OOP and Docker
+        familiarity to support scripting tasks and containerized lab work while
+        preparing for CCNA (200-301).
+      </p>
+      <div class="about-grid">
+        <div class="about-card">
+          <p class="about-card-label mono">based in</p>
+          <p class="about-card-value">Kollengode, India</p>
+        </div>
+        <div class="about-card">
+          <p class="about-card-label mono">certification</p>
+          <p class="about-card-value">CCNA (200-301) — in progress</p>
+        </div>
+        <div class="about-card">
+          <p class="about-card-label mono">languages</p>
+          <p class="about-card-value">Malayalam · Tamil · English</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section class="section section-alt" id="skills">
+    <div class="section-inner fade-target">
+      <p class="eyebrow mono">02 · skills</p>
+      <h2 class="section-title">What runs under the hood</h2>
+
+      <div class="skills-cols">
+        <div class="skill-col fade-target">
+          <h3 class="skill-col-title">Technical</h3>
+          <ul class="skill-list mono">
+            <li>Cisco Packet Tracer</li>
+            <li>GNS3</li>
+            <li>Wireshark</li>
+            <li>Docker</li>
+            <li>Linux</li>
+          </ul>
+        </div>
+        <div class="skill-col fade-target">
+          <h3 class="skill-col-title">Network Operations</h3>
+          <ul class="skill-list mono">
+            <li>VLANs</li>
+            <li>Trunking (802.1Q)</li>
+            <li>Static routing</li>
+            <li>OSPF</li>
+            <li>DHCP</li>
+          </ul>
+        </div>
+        <div class="skill-col fade-target">
+          <h3 class="skill-col-title">Support Operations</h3>
+          <ul class="skill-list mono">
+            <li>Incident triage</li>
+            <li>Ticket documentation</li>
+            <li>Escalation management</li>
+            <li>Change documentation</li>
+            <li>Network troubleshooting</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Experience ===== -->
+  <section class="section" id="experience">
+    <div class="section-inner">
+      <p class="eyebrow mono fade-target">03 · internship</p>
+      <h2 class="section-title fade-target">Where I've interned</h2>
+
+      <div class="entry-list">
+        <article class="entry-card fade-target">
+          <div class="entry-head">
+            <h3 class="entry-title">Cloud Computing Engineer Intern</h3>
+            <span class="entry-date mono">2026-06 &ndash; 2026-07 &middot; 1 month</span>
+          </div>
+          <p class="entry-org">Tamil Nadu, India</p>
+          <ul class="entry-list-items">
+            <li>Assisted in daily operations, ensuring smooth workflow and adherence to company protocols.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Education ===== -->
+  <section class="section section-alt" id="education">
+    <div class="section-inner">
+      <p class="eyebrow mono fade-target">04 · education</p>
+      <h2 class="section-title fade-target">Academic background</h2>
+
+      <div class="entry-list">
+        <article class="entry-card fade-target">
+          <div class="entry-head">
+            <h3 class="entry-title">Bachelor of Science: Computer Science</h3>
+            <span class="entry-date mono">Expected 2027-03</span>
+          </div>
+          <p class="entry-org">CMS College of Engineering and Technology — Tamil Nadu, India</p>
+          <ul class="entry-list-items">
+            <li>Expected: March 2027</li>
+            <li>GPA: 7.49 / 10.0</li>
+          </ul>
+        </article>
+
+        <article class="entry-card fade-target">
+          <div class="entry-head">
+            <h3 class="entry-title">Higher Secondary Certificate: Computer Science</h3>
+            <span class="entry-date mono">2023-05</span>
+          </div>
+          <p class="entry-org">VMHS Vadavannur — Kerala, India</p>
+          <ul class="entry-list-items">
+            <li>Final Grade: 83%</li>
+            <li>GPA: 83%</li>
+          </ul>
+        </article>
+
+        <article class="entry-card fade-target">
+          <div class="entry-head">
+            <h3 class="entry-title">High School Diploma</h3>
+            <span class="entry-date mono">2021-05</span>
+          </div>
+          <p class="entry-org">RPMHSS Panangattiri — Kerala, India</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <p class="eyebrow mono fade-target">05 · projects</p>
+      <h2 class="section-title fade-target">Things I've shipped</h2>
+
+      <div class="project-list">
+        <article class="project-card fade-target">
+          <div class="project-index mono">01</div>
+          <div class="project-body">
+            <h3 class="project-title">Network Simulation &amp; Troubleshooting Labs</h3>
+            <p class="project-desc">
+              Configured and tested VLANs, 802.1Q trunking, and EtherChannel on
+              simulated multi-switch topologies aligned with CCNA (200-301) exam
+              objectives. Implemented and verified Spanning Tree Protocol
+              (STP/RSTP/PVST+) to prevent Layer 2 loops in redundant switch
+              topologies. Configured static routing, OSPF, and access control
+              lists (ACLs) on simulated router topologies for secure inter-VLAN
+              connectivity. Used Wireshark to capture and analyze network traffic,
+              identifying packet flow and diagnosing connectivity issues. Built
+              and tested VM and Docker environments to model client-server and
+              containerized network scenarios.
+            </p>
+            <div class="project-tags mono">
+              <span>GNS3</span><span>Packet Tracer</span><span>Wireshark</span><span>Docker</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card fade-target">
+          <div class="project-index mono">02</div>
+          <div class="project-body">
+            <h3 class="project-title">Student Management System</h3>
+            <p class="project-desc">
+              Designed and implemented a CRUD system (Add, Remove, Modify, View)
+              for student records using Java classes and objects. Applied OOP
+              concepts (encapsulation, inheritance, polymorphism) with input
+              validation and error handling for data integrity.
+            </p>
+            <div class="project-tags mono">
+              <span>Java</span><span>OOP</span><span>Console App</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Resume / Certificates ===== -->
+  <section class="section section-alt" id="resume">
+    <div class="section-inner fade-target">
+      <p class="eyebrow mono">06 · resume</p>
+      <h2 class="section-title">Take it with you</h2>
+      <p class="section-lead">
+        Download a copy of my full résumé as a PDF.
+      </p>
+      <div class="resume-actions">
+        <a href="assets/akshay-k-resume.pdf" download="Akshay-K-Resume.pdf" class="btn btn-primary">Download résumé (PDF)</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Chatbot ===== -->
+  <section class="section" id="chat">
+    <div class="section-inner fade-target">
+      <p class="eyebrow mono">07 · ask</p>
+      <h2 class="section-title">Ask about me directly</h2>
+      <p class="section-lead">
+        This assistant only knows what's on this site — my background, skills,
+        and projects. Ask it anything about me.
+      </p>
+
+      <div class="chat-window" id="chatWindow">
+        <div class="chat-log mono" id="chatLog">
+          <div class="chat-msg chat-msg-bot">
+            <span class="chat-tag">akshay-bot</span>
+            Hi — I can answer questions about my background, skills, and
+            projects. Try asking "what have you built?" or "are you CCNA certified?"
+          </div>
+        </div>
+        <form class="chat-form" id="chatForm">
+          <input
+            type="text"
+            id="chatInput"
+            class="chat-input mono"
+            placeholder="Ask something about Akshay..."
+            autocomplete="off"
+            maxlength="300"
+          />
+          <button type="submit" class="btn btn-primary chat-send">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <footer class="section footer" id="contact">
+    <div class="section-inner fade-target">
+      <p class="eyebrow mono">08 · contact</p>
+      <h2 class="section-title">Let's connect</h2>
+      <div class="contact-grid">
+        <a href="https://github.com/Akshay2278" target="_blank" rel="noopener" class="contact-link">
+          <span class="mono">github</span>
+          <span>github.com/Akshay2278</span>
+        </a>
+        <a href="mailto:akshaykh1004@gmail.com" class="contact-link">
+          <span class="mono">email</span>
+          <span>akshaykh1004@gmail.com</span>
+        </a>
+        <a href="https://linkedin.com/in/akshay54" target="_blank" rel="noopener" class="contact-link">
+          <span class="mono">linkedin</span>
+          <span>linkedin.com/in/akshay54</span>
+        </a>
+      </div>
+      <p class="footer-note mono">built by Akshay</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

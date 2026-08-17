@@ -1,0 +1,91 @@
+{
+  "identity": {
+    "name": "Akshay K",
+    "tagline": "Aspiring Network Engineer | CCNA (200-301) Certification in Progress | Systems & Infrastructure Enthusiast",
+    "location": "Kollengode, India",
+    "languages": ["Malayalam", "Tamil", "English"]
+  },
+  "topics": [
+    {
+      "id": "intro",
+      "keywords": ["who are you", "about yourself", "yourself", "introduce yourself", "introduce", "hello", "hi", "hey"],
+      "answer": "I'm Akshay K, an aspiring Network Engineer based in Kollengode, India, currently working toward CCNA (200-301) certification. I focus on routing, switching, VLANs, and IP services in lab-based environments, using Cisco Packet Tracer, GNS3, and Wireshark to build topologies and validate configuration changes."
+    },
+    {
+      "id": "education",
+      "keywords": ["education", "college", "university", "degree", "study", "studying", "cgpa", "gpa", "grade", "school", "graduate", "graduation", "hsc", "higher secondary", "high school"],
+      "answer": "I'm pursuing a B.Sc. in Computer Science at CMS College of Engineering & Technology, Tamil Nadu, India, expected March 2027, with a current GPA of 7.49/10. Before that, I completed my Higher Secondary Certificate in Computer Science at VMHS Vadavannur, Kerala (83%), and my High School Diploma at RPMHSS Panangattiri, Kerala."
+    },
+    {
+      "id": "certification",
+      "keywords": ["ccna", "certification", "certified", "200-301", "cisco certification"],
+      "answer": "I'm currently working toward the CCNA (200-301) certification, building the underlying skills through hands-on labs in Cisco Packet Tracer and GNS3."
+    },
+    {
+      "id": "experience",
+      "keywords": ["experience", "work experience", "job history", "internship", "internship experience", "cloud computing engineer", "worked", "intern"],
+      "answer": "I did a 1-month internship as a Cloud Computing Engineer Intern in Tamil Nadu, India (June-July 2026), where I assisted with daily operations and helped ensure smooth workflow and adherence to company protocols. I haven't had a full-time job yet -- this was an internship."
+    },
+    {
+      "id": "network-protocols",
+      "keywords": ["vlan", "vlans", "trunking", "802.1q", "ospf", "dhcp", "routing", "static routing", "spanning tree", "stp", "acl", "access control list", "etherchannel", "layer 2", "protocol"],
+      "answer": "On network operations specifically, I work with VLANs, 802.1Q trunking, EtherChannel, static routing, and OSPF, plus Spanning Tree Protocol (STP/RSTP/PVST+) to prevent Layer 2 loops, DHCP, and access control lists (ACLs) for secure inter-VLAN connectivity -- all practiced on simulated multi-switch and router topologies aligned with CCNA 200-301 objectives."
+    },
+    {
+      "id": "support-skills",
+      "keywords": ["support", "helpdesk", "ticket", "incident", "triage", "escalation", "documentation", "troubleshooting", "support experience", "support skills"],
+      "answer": "I also have support-operations skills: incident triage, ticket documentation, escalation management, change documentation, and structured network troubleshooting."
+    },
+    {
+      "id": "location",
+      "keywords": ["where", "location", "based", "live", "from", "city", "state"],
+      "answer": "I'm based in Kollengode, India."
+    },
+    {
+      "id": "languages",
+      "keywords": ["language", "languages", "speak", "fluent"],
+      "answer": "I speak Malayalam (bilingual/proficient, C2), Tamil (upper intermediate, B2), and English (intermediate, B1)."
+    },
+    {
+      "id": "goals",
+      "keywords": ["goal", "goals", "career", "looking for", "aim", "aiming", "internship", "job", "opportunity", "opportunities", "plan", "future"],
+      "answer": "I'm focused on becoming a Network Engineer, working toward CCNA (200-301) certification and landing internship or entry-level opportunities in network engineering and infrastructure roles."
+    },
+    {
+      "id": "network-skills",
+      "keywords": ["network", "networking", "ccna", "gns3", "packet tracer", "wireshark", "cisco", "router", "switch", "vlan", "topology", "linux", "skill", "skills", "tech stack", "stack"],
+      "answer": "My technical toolkit centers on Cisco Packet Tracer, GNS3, and Wireshark for building and testing network topologies, plus Docker and Linux for lab environments. On network operations I work with VLANs, trunking, static routing, OSPF, and DHCP. I also bring support-operations skills like incident triage and structured troubleshooting."
+    },
+    {
+      "id": "java-skills",
+      "keywords": ["java", "oop", "programming", "code", "coding", "developer"],
+      "answer": "I use Java (with OOP principles like encapsulation, inheritance, and polymorphism) mainly to support scripting tasks and small applications, alongside my primary focus on networking."
+    },
+    {
+      "id": "projects-overview",
+      "keywords": ["project", "projects", "built", "build", "portfolio", "work"],
+      "answer": "My main projects are a set of Network Simulation & Troubleshooting Labs (built with GNS3, Cisco Packet Tracer, and Wireshark) and a Student Management System (a Java/OOP console application). Ask me about either by name for details."
+    },
+    {
+      "id": "network-labs-project",
+      "keywords": ["network simulation", "troubleshooting labs", "multi-switch", "lab project"],
+      "answer": "My Network Simulation & Troubleshooting Labs project uses GNS3, Cisco Packet Tracer, and Wireshark: I configured and tested VLANs, 802.1Q trunking, and EtherChannel on multi-switch topologies, implemented Spanning Tree Protocol (STP/RSTP/PVST+) to prevent Layer 2 loops, set up static routing, OSPF, and ACLs on router topologies, used Wireshark to capture and diagnose traffic, and built VM/Docker environments to model client-server and containerized scenarios -- all aligned with CCNA 200-301 objectives."
+    },
+    {
+      "id": "student-management",
+      "keywords": ["student management", "java project", "oop project"],
+      "answer": "My Student Management System is a Java (OOP) console application: a CRUD system (Add, Remove, Modify, View) for student records, applying encapsulation, inheritance, and polymorphism with input validation and error handling for data integrity."
+    },
+    {
+      "id": "contact",
+      "keywords": ["contact", "email", "reach", "hire", "connect", "linkedin", "github", "resume", "cv"],
+      "answer": "You can reach me by email at akshaykh1004@gmail.com, connect on LinkedIn at linkedin.com/in/akshay54, or check out my code on GitHub at github.com/Akshay2278."
+    },
+    {
+      "id": "thanks",
+      "keywords": ["thank", "thanks", "thank you", "cool", "nice", "great", "awesome"],
+      "answer": "Glad that helped! Feel free to ask me anything else -- my projects, my skills, or how to get in touch."
+    }
+  ],
+  "fallback": "I don't have a specific answer for that yet, but you can ask me about my education, skills, certification, experience, or projects (Network Simulation Labs, Student Management System). You can also update backend/data/knowledge.json to teach me new answers."
+}
