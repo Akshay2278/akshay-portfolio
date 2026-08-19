@@ -581,3 +581,40 @@ ul { margin: 0; padding: 0; list-style: none; }
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
+
+/* ============ Mobile responsiveness pass ============ */
+
+/* Safety net: never allow sideways scrolling on small screens */
+html, body { overflow-x: hidden; max-width: 100%; }
+
+@media (max-width: 720px) {
+  .section { padding: 56px 20px; }
+  .hero { padding: 24px 20px 0; }
+  .hero-inner { padding: 40px 0 40px; }
+
+  .hero-meta {
+    flex-wrap: wrap;
+    gap: 6px 14px;
+    font-size: 0.66rem;
+  }
+
+  .hero-layout { gap: 32px; }
+  .photo-card { align-self: center; }
+
+  .about-grid, .skills-cols, .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .entry-head { flex-direction: column; align-items: flex-start; gap: 4px; }
+
+  .chat-log { height: 260px; }
+  .chat-msg { max-width: 92%; }
+}
+
+@media (max-width: 420px) {
+  .hero-title { font-size: clamp(2.1rem, 11vw, 3rem); }
+  .section-title { font-size: clamp(1.5rem, 7vw, 2rem); }
+  .btn { padding: 12px 18px; font-size: 0.74rem; }
+  .hero-cta { gap: 10px; }
+  .photo-card-inner { width: 160px; height: 200px; }
+}
